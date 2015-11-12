@@ -1,6 +1,6 @@
 {
   "name": "@tech_userreport.com/gulp-module-deps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Return module-deps JSON for each file",
   "main": "index.js",
   "scripts": {
