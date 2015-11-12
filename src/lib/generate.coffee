@@ -2,6 +2,7 @@ mdeps      = require "module-deps"
 map        = require "through2-map"
 multipipe  = require "multipipe"
 mdep2vinyl = require "./mdep2vinyl"
+pass       = require "../../test/utils/through2-pass"
 
 module.exports = (opts) ->
 	md      = mdeps opts
