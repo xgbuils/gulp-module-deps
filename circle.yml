@@ -1,0 +1,17 @@
+machine:
+  node:
+    version: 4.1.0
+
+general:
+  artifacts:
+    - "publish"
+
+deployment:
+  npm:
+    branch: master
+    commands:
+      - echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > .npmrc
+      - mkdir publish
+      - cp package.json publish
+      - cp -r dist/* publish
+      - npm publish publish --access public

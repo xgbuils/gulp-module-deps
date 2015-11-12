@@ -1,0 +1,9 @@
+[{
+	"deps": {},
+	"id": "test/cases/02-single-dependency/dep.js",
+	"source": "module.exports = \"Hello, I am dependency\";\n"
+}, {
+	"deps": {},
+	"id": "test/cases/02-single-dependency/entry.js",
+	"source": "var dep = require(\"./dep\");\n\nmodule.exports = dep;\n"
+}]

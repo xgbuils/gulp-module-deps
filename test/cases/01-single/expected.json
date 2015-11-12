@@ -1,0 +1,5 @@
+[{
+	"id": "test/cases/01-single/entry.js",
+	"deps": {},
+	"source": "module.exports = function() {\n\treturn \"Hello World\";\n};\n"
+}]
